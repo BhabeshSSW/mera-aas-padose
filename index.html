@@ -7,10 +7,26 @@
   <title>Mera Aas Padose</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    .banner-image {
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .hero h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .hero img.logo {
+      height: 60px;
+      max-width: 100%;
+    }
+    .banner-image, .content-image {
       width: 100%;
+      max-width: 800px;
       height: auto;
-      margin-top: 20px;
+      display: block;
+      margin: 20px auto;
       border-radius: 8px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     }
@@ -19,7 +35,8 @@
 <body>
   <header class="hero">
     <h1>Mera Aas Padose</h1>
-    <p class="tagline">An arts-integrated journey of community, creativity, and expression</p>
+    <img src="images/03 IFA_logo_grey.png" alt="IFA Logo" class="logo" />
+    <p class="tagline" style="width: 100%;">An arts-integrated journey of community, creativity, and expression</p>
   </header>
 
   <nav class="navbar">
@@ -40,13 +57,20 @@
     <section>
       <h2>Welcome to the Project</h2>
       <p>
-        <strong>Mera Aas Padose</strong> is a participatory, arts-based education project that empowers children
-        from BND Public School in Delhi to creatively explore, document, and reflect on their immediate environments.
-        Through drawing, model-making, and drama, students reconnect with their cultural roots, gain confidence, and
-        tell their own stories in vibrant, expressive ways.
+        <strong>Mera Aas Padose</strong> is an arts-integrated education initiative that recognizes children's everyday surroundings—home, school, and neighborhood—as rich sites of learning, identity, and expression. Conducted with students from <em>BND Public School</em>, a low-fee private primary school in Katwaria Sarai, South Delhi, the project engaged children in creatively documenting their lived experiences through drawing, model-making, and performance.
       </p>
-      <img src="banner.jpg" alt="Student drawing of a fair scene" class="banner-image" />
+      <p>
+        Moving beyond conventional academics, the project emphasized student voice, cultural pride, and community connection. Children illustrated their dreams, daily routines, and memories of festivals and village life. These illustrations became the foundation for three-dimensional models representing personal and collective spaces.
+      </p>
+      <p>
+        In its final phase, the project culminated in a collaboratively written and performed drama, developed through storytelling and improvisation, and presented at a vibrant community event—the <em>School Mela</em>. The entire process fostered new relationships between students, teachers, and their environments, demonstrating the transformative power of the arts in education.
+      </p>
+      <p>
+        This project was supported by <strong>India Foundation for the Arts (IFA)</strong> under its <em>Arts Education programme</em>. The grant enabled the Dehat Uthan and Cultural Society to explore how creative pedagogies can deepen student engagement and encourage more inclusive, expressive classroom spaces.
+      </p>
     </section>
+
+    <img src="images/image_23_23.jpg" alt="Student art of neighborhood" class="content-image" />
   </main>
 
   <footer>
