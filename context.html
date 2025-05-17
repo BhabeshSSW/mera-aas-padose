@@ -2,15 +2,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Context - Mera Aas Padose</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px 20px;
+      text-align: center;
+    }
+    .hero .header-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .hero h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    .hero .logo {
+      height: 60px;
+      max-width: 150px;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      margin-top: 10px;
+      font-style: italic;
+    }
+    .navbar {
+      background-color: #f26b38;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .navbar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .navbar li {
+      display: inline;
+      margin: 0 15px;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: left;
+    }
+    .content h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    .content h3 {
+      color: #f26b38;
+      margin-top: 30px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
   <header class="hero">
-    <h1>Context</h1>
-    <p class="tagline">Understanding the school and the neighborhood</p>
+    <div class="header-wrapper">
+      <h1>Mera Aas Padose</h1>
+      <img src="images/04 IFA_logo_white.png" alt="IFA Logo" class="logo" />
+    </div>
+    <p class="tagline">An arts-integrated journey of community, creativity, and expression</p>
   </header>
 
   <nav class="navbar">
@@ -19,40 +97,48 @@
       <li><a href="about.html">About</a></li>
       <li><a href="context.html" class="active">Context</a></li>
       <li><a href="methodology.html">Methodology</a></li>
+      <li><a href="student-work.html">Student Work</a></li>
+      <li><a href="drama-performance.html">Drama</a></li>
+      <li><a href="school-mela.html">School Mela</a></li>
+      <li><a href="reflections.html">Reflections</a></li>
       <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="celebration.html">Celebration</a></li>
-      <li><a href="conclusion.html">Conclusion</a></li>
     </ul>
   </nav>
 
   <main class="content">
-    <section>
-      <h2>BND Public School</h2>
-      <p>
-        BND Public School is a low-cost private primary school situated in the Lal Dora area of Katwaria Sarai, South Delhi.
-        It was established in 2000 by a retired Delhi government school teacher and currently caters to students from
-        kindergarten to 5th grade. The school employs a small but dedicated team of 10 teachers and administrators.
-      </p>
-      <p>
-        The school focuses on children from marginalized and migrant communities, providing them with foundational education
-        in a resource-constrained yet nurturing environment. Its mission is to bridge the educational challenges faced by
-        children from underserved backgrounds and to foster academic success through creativity and cultural connection.
-      </p>
-    </section>
+    <h2>Context</h2>
+    <p>
+      This section provides insight into the location, school setting, and socio-demographic realities that shaped the <strong>Mera Aas Padose</strong> project. Understanding the context is essential to appreciating why this project was necessary and how it impacted its participants.
+    </p>
 
-    <section>
-      <h2>Katwaria Sarai Neighborhood</h2>
-      <p>
-        Katwaria Sarai is an urban village in South Delhi, classified as a “Lal Dora” area — exempt from modern development
-        regulations. The neighborhood is known for its dense layout, informal economic activity, and lack of consistent
-        infrastructure. These conditions result in lower living costs, attracting migrant families and low-income groups.
-      </p>
-      <p>
-        The area's proximity to premier institutions like Jawaharlal Nehru University (JNU), IIT Delhi, and IIFT lends it
-        an academic character, while also fostering a diverse population. Despite infrastructural challenges, the community
-        is vibrant, resilient, and full of cultural richness, making it an ideal setting for a project like <em>Mera Aas Padose</em>.
-      </p>
-    </section>
+    <h3>1. About BND Public School</h3>
+    <p>
+      BND Public School is a low-cost private primary school located in the Lal Dora area of Katwaria Sarai, South Delhi. Established in 2000 by a retired Delhi government school teacher, the school serves children from kindergarten through fifth grade. With a small but committed team of 10 teachers and a head teacher, the school aims to provide foundational education to children from underserved backgrounds, particularly those from migrant families.
+    </p>
+
+    <h3>2. Mission and Vision</h3>
+    <p>
+      <strong>Mission:</strong> To address the educational challenges faced by primary schools under the Municipal Corporation of Delhi (MCD) by fostering academic excellence, critical thinking, and creativity in a safe and inclusive environment.
+    </p>
+    <p>
+      <strong>Vision:</strong> To create a community where every child, regardless of socio-economic status, has access to quality primary education that is culturally rooted, imaginative, and empowering.
+    </p>
+
+    <h3>3. Neighborhood Profile: Katwaria Sarai</h3>
+    <p>
+      Katwaria Sarai is an urban village in South Delhi, officially classified as a “Lal Dora” area—meaning it falls outside of standard development regulations. This contributes to infrastructure challenges such as poor roads, limited sanitation, and intermittent access to utilities.
+    </p>
+    <p>
+      Despite these hardships, the area’s affordability attracts a diverse mix of low- to middle-income families, students, and migrant workers. Its proximity to major universities like JNU and IIT Delhi adds a unique socio-cultural vibrancy to the neighborhood.
+    </p>
+
+    <h3>4. Social and Economic Realities</h3>
+    <p>
+      Most students attending BND Public School come from families engaged in informal labor, street vending, domestic work, or small-scale services. Many live in shared rental housing with minimal space and resources.
+    </p>
+    <p>
+      In this environment, creative expression is often seen as a luxury. The <strong>Mera Aas Padose</strong> project reintroduced art not only as a tool for learning, but also as a means of reclaiming cultural identity, community voice, and emotional well-being.
+    </p>
   </main>
 
   <footer>
