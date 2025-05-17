@@ -7,36 +7,76 @@
   <title>Mera Aas Padose</title>
   <link rel="stylesheet" href="style.css" />
   <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
     .hero {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
+      text-align: center;
+      padding: 40px 20px 20px 20px;
     }
     .hero h1 {
       margin: 0;
-      font-size: 2rem;
+      font-size: 2.2rem;
     }
-    .hero img.logo {
+    .hero .logo {
       height: 60px;
-      max-width: 100%;
+      margin-top: 10px;
     }
-    .banner-image, .content-image {
-      width: 100%;
+    .tagline {
+      font-size: 1.1rem;
+      margin-top: 10px;
+      font-style: italic;
+    }
+    .navbar {
+      background-color: #f26b38;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .navbar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .navbar li {
+      display: inline;
+      margin: 0 15px;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .content {
       max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .content-image {
+      width: 100%;
       height: auto;
-      display: block;
-      margin: 20px auto;
+      margin-top: 30px;
       border-radius: 8px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header class="hero">
     <h1>Mera Aas Padose</h1>
-    <img src="images/03 IFA_logo_grey.png" alt="IFA Logo" class="logo" />
-    <p class="tagline" style="width: 100%;">An arts-integrated journey of community, creativity, and expression</p>
+    <img src="images/04 IFA_logo_white.png" alt="IFA Logo" class="logo" />
+    <p class="tagline">An arts-integrated journey of community, creativity, and expression</p>
   </header>
 
   <nav class="navbar">
