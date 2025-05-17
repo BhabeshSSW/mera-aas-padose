@@ -2,21 +2,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mera Aas Padose</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
   <style>
     body {
       margin: 0;
-      padding: 0;
       font-family: Arial, sans-serif;
       background-color: #f9f9f9;
       color: #333;
     }
     .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px 20px;
       text-align: center;
-      padding: 40px 20px 20px 20px;
+    }
+    .hero .header-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     .hero h1 {
       margin: 0;
@@ -24,7 +33,7 @@
     }
     .hero .logo {
       height: 60px;
-      margin-top: 10px;
+      max-width: 150px;
     }
     .tagline {
       font-size: 1.1rem;
@@ -54,7 +63,7 @@
       max-width: 800px;
       margin: 0 auto;
       padding: 40px 20px;
-      text-align: center;
+      text-align: left;
     }
     .content-image {
       width: 100%;
@@ -74,8 +83,10 @@
 </head>
 <body>
   <header class="hero">
-    <h1>Mera Aas Padose</h1>
-    <img src="images/04 IFA_logo_white.png" alt="IFA Logo" class="logo" />
+    <div class="header-wrapper">
+      <h1>Mera Aas Padose</h1>
+      <img src="images/04 IFA_logo_white.png" alt="IFA Logo" class="logo" />
+    </div>
     <p class="tagline">An arts-integrated journey of community, creativity, and expression</p>
   </header>
 
@@ -96,21 +107,13 @@
   <main class="content">
     <section>
       <h2>Welcome to the Project</h2>
-      <p>
-        <strong>Mera Aas Padose</strong> is an arts-integrated education initiative that recognizes children's everyday surroundings—home, school, and neighborhood—as rich sites of learning, identity, and expression. Conducted with students from <em>BND Public School</em>, a low-fee private primary school in Katwaria Sarai, South Delhi, the project engaged children in creatively documenting their lived experiences through drawing, model-making, and performance.
-      </p>
-      <p>
-        Moving beyond conventional academics, the project emphasized student voice, cultural pride, and community connection. Children illustrated their dreams, daily routines, and memories of festivals and village life. These illustrations became the foundation for three-dimensional models representing personal and collective spaces.
-      </p>
-      <p>
-        In its final phase, the project culminated in a collaboratively written and performed drama, developed through storytelling and improvisation, and presented at a vibrant community event—the <em>School Mela</em>. The entire process fostered new relationships between students, teachers, and their environments, demonstrating the transformative power of the arts in education.
-      </p>
-      <p>
-        This project was supported by <strong>India Foundation for the Arts (IFA)</strong> under its <em>Arts Education programme</em>. The grant enabled the Dehat Uthan and Cultural Society to explore how creative pedagogies can deepen student engagement and encourage more inclusive, expressive classroom spaces.
-      </p>
+      <p><strong>Mera Aas Padose</strong> is an arts-integrated education initiative that recognizes children's everyday surroundings—home, school, and neighborhood—as rich sites of learning, identity, and expression. Conducted with students from <em>BND Public School</em>, a low-fee private primary school in Katwaria Sarai, South Delhi, the project engaged children in creatively documenting their lived experiences through drawing, model-making, and performance.</p>
+      <p>Moving beyond conventional academics, the project emphasized student voice, cultural pride, and community connection. Children illustrated their dreams, daily routines, and memories of festivals and village life. These illustrations became the foundation for three-dimensional models representing personal and collective spaces.</p>
+      <p>In its final phase, the project culminated in a collaboratively written and performed drama, developed through storytelling and improvisation, and presented at a vibrant community event—the <em>School Mela</em>. The entire process fostered new relationships between students, teachers, and their environments, demonstrating the transformative power of the arts in education.</p>
+      <p>This project was supported by <strong>India Foundation for the Arts (IFA)</strong> under its <em>Arts Education programme</em>. The grant enabled the Dehat Uthan and Cultural Society to explore how creative pedagogies can deepen student engagement and encourage more inclusive, expressive classroom spaces.</p>
     </section>
 
-    <img src="images/image_23_23.jpg" alt="Student art of neighborhood" class="content-image" />
+    <img src="images/image_23_23.jpg" alt="Student art of neighborhood" class="content-image">
   </main>
 
   <footer>
