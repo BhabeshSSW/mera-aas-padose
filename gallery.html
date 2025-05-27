@@ -7,25 +7,49 @@
   <title>Gallery - Mera Aas Padose</title>
   <link rel="stylesheet" href="style.css" />
   <style>
+    body { margin: 0; font-family: Arial, sans-serif; background-color: #f9f9f9; color: #333; }
+    .hero {
+      display: flex; flex-direction: column; align-items: center;
+      padding: 40px 20px 20px; text-align: center;
+    }
+    .hero .header-wrapper {
+      display: flex; align-items: center; gap: 20px;
+      flex-wrap: wrap; justify-content: center;
+    }
+    .hero h1 { margin: 0; font-size: 2.2rem; }
+    .hero .logo { height: 60px; max-width: 150px; }
+    .tagline { font-size: 1.1rem; margin-top: 10px; font-style: italic; }
+    .navbar {
+      background-color: #f26b38; padding: 10px 0; text-align: center;
+    }
+    .navbar ul { list-style: none; padding: 0; margin: 0; }
+    .navbar li { display: inline; margin: 0 15px; }
+    .navbar a {
+      color: white; text-decoration: none; font-weight: bold;
+    }
+    .content {
+      max-width: 1000px; margin: 0 auto; padding: 40px 20px;
+    }
     .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      justify-content: center;
+      display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;
     }
     .gallery img {
-      max-width: 300px;
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      max-width: 300px; width: 100%; height: auto;
+      border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    footer {
+      background-color: #333; color: white; text-align: center;
+      padding: 15px; font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header class="hero">
-    <h1>Gallery</h1>
-    <p class="tagline">Visual journeys through art, models, and imagination</p>
+    <div class="header-wrapper">
+      <h1>Mera Aas Padose</h1>
+      <img src="images/04 IFA_logo_white.png" alt="IFA Logo" class="logo" />
+    </div>
+    <p class="tagline">An arts-integrated journey of community, creativity, and expression</p>
   </header>
 
   <nav class="navbar">
@@ -34,15 +58,33 @@
       <li><a href="about.html">About</a></li>
       <li><a href="context.html">Context</a></li>
       <li><a href="methodology.html">Methodology</a></li>
+      <li><a href="student-work.html">Student Work</a></li>
+      <li><a href="drama-performance.html">Drama</a></li>
+      <li><a href="school-mela.html">School Mela</a></li>
+      <li><a href="reflections.html">Reflections</a></li>
       <li><a href="gallery.html" class="active">Gallery</a></li>
-      <li><a href="celebration.html">Celebration</a></li>
-      <li><a href="conclusion.html">Conclusion</a></li>
     </ul>
   </nav>
 
   <main class="content">
     <section class="gallery">
-
+      <img src="images/Screenshot 2025-05-17 at 4.54.05 pm.png" alt="Screenshot 2025-05-17 at 4.54.05 pm.png">
+<img src="images/image_19_16.jpg" alt="image_19_16.jpg">
+<img src="images/image_20_17.jpg" alt="image_20_17.jpg">
+<img src="images/image_20_18.jpg" alt="image_20_18.jpg">
+<img src="images/image_21_19.jpg" alt="image_21_19.jpg">
+<img src="images/image_23_23.jpg" alt="image_23_23.jpg">
+<img src="images/image_35_40.jpg" alt="image_35_40.jpg">
+<img src="images/image_36_41.jpg" alt="image_36_41.jpg">
+<img src="images/image_38_44.jpg" alt="image_38_44.jpg">
+<img src="images/image_45_50.jpg" alt="image_45_50.jpg">
+<img src="images/image_46_51.jpg" alt="image_46_51.jpg">
+<img src="images/image_47_52.jpg" alt="image_47_52.jpg">
+<img src="images/image_48_54.jpg" alt="image_48_54.jpg">
+<img src="images/image_51_55.jpg" alt="image_51_55.jpg">
+<img src="images/image_51_56.jpg" alt="image_51_56.jpg">
+<img src="images/image_52_57.jpg" alt="image_52_57.jpg">
+<img src="images/image_52_59.jpg" alt="image_52_59.jpg">
     </section>
   </main>
 
